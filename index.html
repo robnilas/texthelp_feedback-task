@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="robnilas">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TextHelp Feedback Form</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="feedback-content">
+                <div class="feedback-desc">
+                    <div class="feedback-desc-content">
+                        <img src="images/texthelp-logo.svg" alt="Logo" class="logo">
+                        <h2 class="pt-20">We love your Feedback</h2>
+                        <p class="desc">
+                            Thanks for using read&write. We really appreciate you choosing us. To help us improve, we’d like to ask you a few questions about your experience. It will take only few minutes. Your answers will help us make read&write even better for you and others.
+                        </p>
+                        <img src="images/readandwrite-logo.png" alt="" class="readandwrite">
+                    </div>
+                </div>
+                <div class="feedback-form-conent">
+                    <form method="POST" id="feedback-form" class="feedback-form" enctype="multipart/form-data">
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 1 / 6</span>
+                            <div class="form-group">
+                                <input type="text" name="app_experience" id="app_experience" required />
+                                <label for="app_experience">How would you score your experience so far?</label>
+                            </div>
+                        </fieldset>
+
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 2 / 6</span>
+                            <div class="form-group">
+                                <input type="text" name="app_improve" id="app_improve" required />
+                                <label for="app_improve">Tell us how we can improve</label>
+                            </div>
+                        </fieldset>
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 3 / 6</span>
+                            <div class="form-group">
+                                <input type="text" name="app_recommend" id="app_recommend" required />
+                                <label for="app_recommend">How likely are you to recommend our app?</label>
+                            </div>
+                        </fieldset>
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 4 / 6</span>
+                            <div class="form-group">
+                                <input type="text" name="app_feature" id="app_feature" required />
+                                <label for="app_feature">Does read&write help you to achieve your goals? How?</label>
+
+                            </div>
+                        </fieldset>
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 5 / 6</span>
+                            <div class="form-group">
+                                <input type="text" name="email" id="email" required />
+                                <label for="email">Add your email to get updates and special promotions</label>
+                            </div>
+                        </fieldset>
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Step 6 / 6</span>
+                            <div class="form-group">
+                                <h2>Thank you</h2>
+                                <p>So much for your feedback - it's truly appreciated.</p>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
